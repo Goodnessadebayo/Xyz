@@ -1,0 +1,207 @@
+.logo{
+           font-size:1.5rem;
+           position: absolute;
+           margin:35px;
+           font-weight:bold;
+           color: lightslategrey;
+}
+  
+     #searchResults{
+         background-color: transparent;
+         list-style-type: none;
+         position: absolute; /* or "absolute" depending on your layout needs */
+         z-index: 9999; /* Ensure the search results appear over other content */
+        border-radius:2rem; /* Add a border for visibility */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+         visibility:visible;
+         opacity: 1;
+         color:black;
+}
+   
+    .clear-icon {
+    margin-right:0.7rem;
+    float:right;
+    transform: translateY(-133%);
+    cursor: pointer;
+}
+
+ 
+    a{
+    color: black;
+    text-decoration:none;
+    font-weight:400;
+}
+  a:hover{
+  text-decoration:none;
+  color: black;
+}
+
+      .scroller{
+          height:3.5rem;
+          border-radius:10px;
+          background-color:darkorange;         
+}
+
+     .product{
+          border-radius:7px;
+          background-color:whitesmoke;;
+          background-size:cover;
+          background-position:center;
+          background-repeat: no-repeat;
+}
+     .cat-text{
+         font-size:0.81rem;
+         
+}
+
+     .cat-text:hover{
+         font-size:0.82rem;
+         font-weight:600;
+}
+     
+      .fixed-nav{
+          box-shadow:0 0 2px;
+}
+     .fixed{
+         font-size:0.7rem;     
+         margin-left:-0.1rem;
+}
+    
+    .active{
+           color: lightslategrey;
+}
+
+/*All categories.css */
+
+ 
+.message{
+    float:right;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate (0deg);
+}
+    100%{
+        transform: rotate (1000deg);
+}
+}
+
+
+   #services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("assets/img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services .service-item {
+  margin-bottom: 20px;
+}
+
+#services .service-icon {
+  float: left;
+  background: #03C4EB;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+#services .service-icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#services .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .service-item:hover .service-icon i {
+  color: #03C4EB;
+}
+
+#services .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .service-title a {
+  color: #111;
+}
+
+#services .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+/* Subscribe Section
+--------------------------------*/
+#subscribe {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/subscribe-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#subscribe .subscribe-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#subscribe .subscribe-text {
+  color: #fff;
+}
+
+#subscribe .subscribe-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subscribe .subscribe-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#subscribe .subscribe-btn:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+.form-info{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("subscribe-bg.jpg") fixed center center;
+	background-size:cover;
+}
+<div class="modal fade mt-5 message-alert" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLiveLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLiveLabel">Log out</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure u want to log out of this activities? </
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="sign in.html" type="button" class="btn btn-primary">Continue</a>
+      </div>
+    </div>
+  </div>
+</div>
+
